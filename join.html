@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Club | Join Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1>Join Our Club</h1>
+        <p>Take the First Step Towards Learning</p>
+    </header>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a class="active" href="join.html">Join Us</a>
+    </nav>
+
+    <main class="container">
+        <section class="card">
+            <h2>Membership Form</h2>
+            <p>Fill in the details below to express your interest.</p>
+
+            <form action="#" method="get">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="course">Course</label>
+                <select id="course" name="course" required>
+                    <option value="">Select your course</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="B.Sc">B.Sc</option>
+                    <option value="B.Com">B.Com</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="interest">Area of Interest</label>
+                <select id="interest" name="interest" required>
+                    <option value="">Select an interest</option>
+                    <option value="Technical">Technical Activities</option>
+                    <option value="Cultural">Cultural Activities</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Management">Event Management</option>
+                </select>
+
+                <label for="message">Why do you want to join?</label>
+                <textarea id="message" name="message" rows="4"
+                          placeholder="Write a short message"></textarea>
+
+                <button class="btn" type="submit">Submit Application</button>
+            </form>
+
+            <p class="note">
+                This is a demonstration form. It does not store applications
+                on a server.
+            </p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 College Club. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
